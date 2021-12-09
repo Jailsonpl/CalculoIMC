@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Serif&family=Roboto:ital@1&display=swap');
+
+body{
+		background: #BAA02D;
+		text-align: center;
+		font-family: 'Open Sans', sans-serif;
+		font-family: 'PT Serif', serif;
+		font-family: 'Roboto', sans-serif;
+		
+	}
+	#main{
+		height: 200px;
+		width: 400px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		padding: 30px;
+		border-radius: 30px;
+		background: #7A571A;	
+		font-size: 20px;	
+	}
+	#botao{
+		border-radius: 20px;
+		opacity: 0.8;
+		font-size: 14px;
+	}
+	#botao:hover{
+		opacity: 1;
+		background: #ff9;
+	}
+	#resultado{
+		margin-top: 100px;
+		font-size: 1em	;
+	}
